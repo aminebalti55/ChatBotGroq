@@ -2,6 +2,20 @@
 
 ## 🎨 Frontend Features
 
+🎥 Demo
+https://streamable.com/mu9g50
+
+Watch the full demo video
+
+Key features demonstrated in the video:
+
+Real-time chat interaction
+Message streaming
+Dark/Light theme switching
+Mobile responsiveness
+WebSocket connection management
+Authentication flow
+
 - Real-time chat interface with message streaming
 - JWT-based authentication with protected routes
 - Dark/Light theme support
