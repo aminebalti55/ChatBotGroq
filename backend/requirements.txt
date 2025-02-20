@@ -1,8 +1,29 @@
-fastapi==0.103.1
-uvicorn==0.23.2
-httpx==0.24.1
-pydantic==2.3.0
-websockets==11.0.3
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.23.2
+
+# Database
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+asyncpg==0.28.0  # For PostgreSQL support
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Groq API Client
+groq==0.4.1
+
+# Environment Variables
 python-dotenv==1.0.0
-sqlalchemy==2.0.20
-# Add your additional dependencies here
+
+# Utilities
+pydantic==2.4.2
+logging==0.4.9.6
+uuid==1.30
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1
